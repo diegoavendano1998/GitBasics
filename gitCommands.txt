@@ -1,0 +1,91 @@
+
+git --help - Comando de ayuda de Git
+git clone --help - Ayuda de un comando en especifico
+git --version -  Para ver la version de git
+git init - inicializar un repositorio de Git
+git status - Ver los cambios en el repositrio y los archivos en staging
+git status -s - Ver solo los archivos y su estado
+git add myfile1.py -  Agregar archivo a staging
+git add . - Agregar todos los cambios a staging
+git rm --cached myfile1.py - Elimiar archivo de staging (si no usa --cached elimina el archivo)
+git commit - Agregar cambios al HEAD (Abrira el editor de mensaje)
+git commit -m "Mensaje del commit" - Agregar cambios al HEAD con el mensaje del commit
+git log - Ver lo commits y su estado (HEAD o remote)
+git log --oneline --pretty --all --graph - Para ver los commits de forma grafica
+git log --oneline --name-status --diff-filter=D - Para filtrar commits que han eliminado archivos
+git checkout -- myfile2.py - Para revertir los cambios de un archivo (no debe estar en staging)
+git remote origin /home/repos1/ - Para poner un repositorio remoto dentro de un directorio local
+git remote origin http://... - Para asignar un repositorio remoto (GitHub, Bitbucket, etc)
+git push - Para empujar lo cambios al repositorio remoto
+git pull - Para traer cambios del repositorio remoto
+git config --global alias.s "status"
+git branch -a - Para ver las ramas
+git banch rama1 - Para crear una rama
+git brach -D rama1 - Para eliminar la rama1
+git checkout rama1 - Para moverse a rama1
+git checkout - - Para moverse a la rama anterior
+git branch rama2 rama1 - Crear una rama2 partir de rama1
+git checkout -b rama3 - Crear una rama3 y moverse a ella
+git checkout a8d7cbf^ tasks/ - Para recuperar un directorio eliminado (con el id del commit+^)
+git switch rama1 - Para cambiarse de rama
+git switch -c rama1 - Para crear y cambiarse a una rama
+git switch - - Para regresar a la rama anterior
+git switch --detach f3d55t - Para regresar a un commit en especifico
+git add . ; git commit -m "Agregar punto" - Para ejecutar dos comandos de git
+git merge rama1 - Para combinar la rama1 con la rama actual
+git tag v1.1 2c70d37 - Para tagear un commit
+git checkout v1.1 - Para moverse al ultimo commit del tag v1.1
+git remote add origin https://github.com/diegoavendano1998/k8s.git - Para agregar un remoto
+git remote -v - Para ver los remotos y sus alias
+git push -u origin main - Para empujar los cambios al remoto
+git push -u origin --all - Para empujar los cambios al remoto de todas las ramas
+git remote show origin - Para ver el repositorio remoto y la rama HEAD (no se puede eliminar)
+git push origin :rama1 - Para eliminar rama remota rama1
+git push -d origin rama1 - Para eliminar rama remota rama1
+
+
+
+
+
+
+ansible-galaxy init src
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
