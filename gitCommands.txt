@@ -42,6 +42,7 @@ git push -u origin --all - Para empujar los cambios al remoto de todas las ramas
 git remote show origin - Para ver el repositorio remoto y la rama HEAD (no se puede eliminar)
 git push origin :rama1 - Para eliminar rama remota rama1
 git push -d origin rama1 - Para eliminar rama remota rama1
+git remote set-url origin git@github.com:diegoavendano1998/GitBasics.git - Para cambiar el origin
 
 
 
