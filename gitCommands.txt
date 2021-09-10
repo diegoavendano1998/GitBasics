@@ -44,8 +44,8 @@ git push origin :rama1 - Para eliminar rama remota rama1
 git push -d origin rama1 - Para eliminar rama remota rama1
 git remote set-url origin git@github.com:diegoavendano1998/GitBasics.git - Para cambiar el origin
 
-
-
+git diff branch1..branch2
+git diff mybranch master -- myfile.cs
 
 
 
