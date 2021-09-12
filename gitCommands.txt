@@ -18,6 +18,7 @@ git remote origin /home/repos1/ - Para poner un repositorio remoto dentro de un 
 git remote origin http://... - Para asignar un repositorio remoto (GitHub, Bitbucket, etc)
 git push - Para empujar lo cambios al repositorio remoto
 git pull - Para traer cambios del repositorio remoto
+git pull --rebase - Cuando hay conflicots con la rama remota *Cuidado: Revisar conflictos pirmero*
 git config --global alias.s "status"
 git branch -a - Para ver las ramas
 git banch rama1 - Para crear una rama
